@@ -1,0 +1,48 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="30" height="30" fill="#1E1E1E"/>
+<g clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-259 -486)" fill="white"/>
+<circle opacity="0.25" cx="-109" cy="-336" r="350" fill="#73CFC0"/>
+<g filter="url(#filter0_d_0_1)">
+<g clip-path="url(#clip1_0_1)">
+<rect x="-139" y="-374" width="1200" height="800" rx="50" fill="white"/>
+</g>
+</g>
+<g filter="url(#filter1_d_0_1)">
+<rect x="-26" y="-15" width="450" height="60" rx="30" fill="#F7F7F7"/>
+</g>
+<rect width="30" height="30" fill="url(#pattern0)"/>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-189" y="-404" width="1280" height="880" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-10" dy="10"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<filter id="filter1_d_0_1" x="-46" y="-31" width="490" height="100" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_0_1" transform="scale(0.0111111)"/>
+</pattern>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-259 -486)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect x="-139" y="-374" width="1200" height="800" rx="50" fill="white"/>
+</clipPath>
+<image id="image0_0_1" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEMUlEQVR4nO2cS4gcZRDHP42C8ejrIkHjevOkoghCBDFBEY/xEV83hUgw/VUL6mXiyYCIF5UYvPk47F096GxVu2bio7tqsjFujA+8uvFJUDTRdKieJb7i6uxM99fbX/2gYNhpuqf+1NTUVlW3c4ZhGIZhGIZhGMb4JAVe6SV7BIReB0YGxm9B8LiaF/qm+lv1Hm1P8/7MKi4RLz3Ec7xk93rBAQiV4xnuS5m2bZ2dXRfaj1aTFHirFzwyvsB/Nc90OJVsS2h/Wkcvz8/3gi9PKvAZBN+bDAbrQ/vXCmC47xLPWExb5D/ZRzv43YtdzEAlMh2uUeTTqSRasXuaLuqN5H9Edg/xPBcbvoac/J/GuMfFRCrZlsZFPi023ebiqZNx4hJuAluMos5OBO8LKPLICrzbdR0Q2h9aaM/0nut67wJCR3OVp/EkDLONrqv4UYMovNBCZSLZw66rgHbaWiDyclS/6rqKZ5LgAv9huesqXnvI4QVeNlxyXcUz/tqe1EG/uK4CocX9m7muAi0Q14QWE3pqeMvRzeCt6mhIaLY6uhmhBV9rUXn3iusqwLQ9uMAx9DrSvD9Tdc5CC8148lHBy12X8avaQJp62ph3XSdl2hZcaKE7XdfZOju7roldjn8zL3goipmh4pk2B4vmYXaziwnPtDeA0C+62EgGg/W6PdRYymB6P8pNJUX34RrK14s+x4tczOxQsQU/rDOSo11wPGMaYdxTR06ONl2sRMp4i37NJ45iwUPRVRerq7PxHt0mGuvfdT2Wad4Ps7t6ZXl2aD/WFDDMNmrzR3cwdJda+9k6PFgeIBzVlQF9T4/pfO/CMAzDMAzDMAzDMCbDH8w27JT+VXXpqOfWa7gYSSS73jPuBsaFUVMIjwPjE9NsBum5PNOToyfWVB29AyD0NDBd57pMmvdnvOBTIPTZCk16hGLu2kmvpecAIVqhjXoEBHftXJi/wnUBjSoY0h0g9JZn/H2MfvKbUGSbxolwPTbhuZv0Wv9/+qKfCd8Ambt9TbZW9X5v4OxBYPx0sjEUfq1tUCjwfj+kq3Xu91Cen6umrx87kF2TMD0wWp7EpQkHBot6Lv3srvWU5VnVg6cYv6xhLFU2Yoxf6OBBfXFtJMnxBh2EBhdKpmb7W/XDqcPPqoIQ+q0F4pTTtCqHM76kT8sJX0kwHQwtCNRtjAvBHmCov/DtuieF6o1u9bXINjUqsuYuYDoW2nloXGz8KZW5GxsR+fEP3r5wCqVUuXYNl5KPBxfULjQwPhveWQptz9QudOAHT5XtMPykdqFB8OfwjlJYYzpWu9Be6KvgjkpY80Kf1y40MD4f2lEILTTTc7ULncg7l3rG7yKO5h8aGySMbvbBH0M7DU0b0/eNrwPrpqcXfEGrEC90osMRfKKqtDRlFv3LGhXZMAzDMAzDMAzDMAzDtZNT0w/hcMJu380AAAAASUVORK5CYII="/>
+</defs>
+</svg>

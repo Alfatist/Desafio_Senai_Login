@@ -1,0 +1,290 @@
+:root {
+  --primary-color: #73cfc0;
+  --gray: #f7f7f7;
+  --white: #ffffff;
+  --black: #000000;
+  --deslocamento-circulos-horizontais: 100px;
+  --arredondamento-card: 50px;
+  --deslocamento-planta: 100px;
+  height: 100%;
+}
+
+body {
+  background-image: url(/assets/img/Background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* background */
+
+.background {
+  border-radius: var(--arredondamento-card);
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+/* circulo-horizontal.css */
+
+.circulo_horizontal__card_container::before {
+  align-self: center;
+  background: var(--primary-color);
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 100%;
+  right: calc(var(--deslocamento-circulos-horizontais) * 2);
+  opacity: 0.25;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.circulo_horizontal__card_container::after {
+  align-self: center;
+  background: var(--primary-color);
+  border-radius: 100%;
+  content: "";
+  display: block;
+  opacity: 0.5;
+  height: 100%;
+  position: absolute;
+  right: var(--deslocamento-circulos-horizontais);
+  width: 100%;
+  z-index: -2;
+}
+
+.circulo_horizontal__card_container {
+  align-self: center;
+  background: var(--primary-color);
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 850px;
+  position: absolute;
+  right: -500px;
+  width: 850px;
+  z-index: -3;
+}
+
+/* container */
+
+.container {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* forms_container */
+
+.card_container {
+  background: #fff;
+  border-radius: var(--arredondamento-card);
+  box-shadow: -10px 10px 40px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 800px;
+  position: relative;
+  width: 1200px;
+  z-index: 10;
+}
+
+/* forms_container.css */
+
+.forms_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 13.58% 0 2% 5.5em;
+  width: 100%;
+}
+
+.imagem_planta__forms_container {
+  background: url(../img/planta.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  height: 456px;
+  transform: translateX(100px);
+  width: 435px;
+}
+
+/* control_radio */
+
+.control_radio {
+  display: flex;
+  font-size: 0.9em;
+  gap: 0.25em;
+  justify-content: center;
+  margin: 0.75em 1.5em 0;
+}
+
+.control_radio label {
+  color: var(--black);
+  font-size: 2.5em;
+  font-weight: 400;
+  opacity: 0.4;
+  cursor: pointer;
+  text-align: center;
+}
+
+.control_radio label::after {
+  content: "";
+  display: block;
+  min-width: 200px;
+  height: 3px;
+  flex-shrink: 0;
+  margin-top: 0.5em;
+  stroke-width: 3px;
+  stroke: #73cfc0;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  width: 100%;
+}
+
+.control_radio input[type="radio"] {
+  display: none;
+}
+
+.control_radio input[type="radio"]:checked + label {
+  color: var(--primary-color);
+  font-weight: 700;
+  opacity: 1;
+}
+
+.control_radio input[type="radio"]:checked + label::after {
+  background-color: var(--primary-color);
+}
+
+/* field */
+
+.field {
+  align-items: center;
+  background-color: var(--gray);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 3em;
+  gap: 0.5em;
+  padding: 0 1.5em;
+  border-radius: 1.5em;
+}
+
+.user__field {
+  background-image: url(../img/Person.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.password__field {
+  background-image: url(../img/Unlock\ Private.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.tel__field {
+  background-image: url(../img/Phone.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+/* submit_container */
+
+.submit_container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0.25em;
+}
+
+.forgot_password__submit_container {
+  color: var(--primary-color);
+  cursor: not-allowed;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.submit__submit_container,
+.submit__signup {
+  color: #fff;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border: none;
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--primary-color);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.submit__signup {
+  align-self: flex-end;
+}
+
+/* forms */
+
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+
+/* login */
+
+.login {
+  display: none;
+  flex-direction: column;
+  gap: 2.5em;
+  max-width: 450px;
+  padding-top: 5em;
+}
+
+.input_text {
+  flex-grow: 1;
+  cursor: unset;
+  color: #000;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.input_text::placeholder {
+  opacity: 0.2;
+}
+
+.forms_container:has(#entrar:checked) .login {
+  display: flex;
+}
+
+.signup {
+  display: none;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 450px;
+  padding-top: 4em;
+}
+
+.forms_container:has(#cadastrar:checked) .signup {
+  display: flex;
+}
